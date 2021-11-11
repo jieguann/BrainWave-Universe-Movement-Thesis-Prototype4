@@ -140,9 +140,9 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_51ee6b9d5f074e4fb9596aed962e71f3: 9.72
+    - Vector1_51ee6b9d5f074e4fb9596aed962e71f3: 15.8
     - Vector1_a4dc930a220a44248828f2d398f7aefc: 0.74
-    - Vector1_d8a4f81e75634ade86c994a04b23be87: 10
+    - Vector1_d8a4f81e75634ade86c994a04b23be87: 15.3
     - _AtmosphereThickness: 4.29
     - _BASE_COLOR_WEIGHT: 1
     - _BUMP_MAP_STRENGTH: 0.3
@@ -173,7 +173,7 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - Color_958979e32e0244f691ad438123adc7f6: {r: 0, g: 0.52395105, b: 1, a: 0}
+    - Color_958979e32e0244f691ad438123adc7f6: {r: 1, g: 1, b: 1, a: 1}
     - _BASE_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EMISSION_COLOR: {r: 0, g: 0, b: 0, a: 0}
