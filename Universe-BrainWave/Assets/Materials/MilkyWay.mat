@@ -140,9 +140,12 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - NoiseSize: 0.5294243
+    - NoiseVisual: 0.5294243
     - Vector1_51ee6b9d5f074e4fb9596aed962e71f3: 15.8
     - Vector1_a4dc930a220a44248828f2d398f7aefc: 0.74
-    - Vector1_d8a4f81e75634ade86c994a04b23be87: 15.3
+    - Vector1_d8a4f81e75634ade86c994a04b23be87: -0.21
+    - Vector1_daa640b9e4654c42b6ad4e24fd519600: 0
     - _AtmosphereThickness: 4.29
     - _BASE_COLOR_WEIGHT: 1
     - _BUMP_MAP_STRENGTH: 0.3
@@ -182,4 +185,5 @@ Material:
     - _REFLECTIONS_COLOR: {r: 1, g: 1, b: 1, a: 1}
     - _SkyTint: {r: 0.6544118, g: 0.6544118, b: 0.6544118, a: 1}
     - _Tint: {r: 0.8014706, g: 0.8014706, b: 0.8014706, a: 0.5}
+    - blendColor: {r: 0.7075472, g: 0.3904859, b: 0.4342185, a: 0}
   m_BuildTextureStacks: []
