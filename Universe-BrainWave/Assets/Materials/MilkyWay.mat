@@ -140,8 +140,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - NoiseSize: 0
-    - NoiseVisual: 0
+    - NoiseSize: 0.58795345
+    - NoiseVisual: 0.79656893
     - Vector1_51ee6b9d5f074e4fb9596aed962e71f3: 15.8
     - Vector1_a4dc930a220a44248828f2d398f7aefc: 0.74
     - Vector1_d8a4f81e75634ade86c994a04b23be87: -0.21
