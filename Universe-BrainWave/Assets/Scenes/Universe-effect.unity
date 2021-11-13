@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 2138677392}
-  m_IndirectSpecularColor: {r: 0.00027066018, g: 0.00016243948, b: 0.00019955338, a: 1}
+  m_IndirectSpecularColor: {r: 0.000431977, g: 0.00022597954, b: 0.00034403097, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -245,14 +245,20 @@ VisualEffect:
   m_ResourceVersion: 1
   m_PropertySheet:
     m_Float:
-      m_Array: []
+      m_Array:
+      - m_Value: 0.22
+        m_Name: Speed
+        m_Overridden: 1
+      - m_Value: 0.3
+        m_Name: Drag
+        m_Overridden: 1
     m_Vector2f:
       m_Array: []
     m_Vector3f:
       m_Array: []
     m_Vector4f:
       m_Array:
-      - m_Value: {x: 64, y: 0, z: 0, w: 0}
+      - m_Value: {x: 0.32987696, y: 0, z: 0, w: 1}
         m_Name: ColorControl
         m_Overridden: 1
     m_Uint:
@@ -325,7 +331,7 @@ GameObject:
   - component: {fileID: 1197851581}
   - component: {fileID: 1197851582}
   m_Layer: 0
-  m_Name: skyboxContol
+  m_Name: BrainwaveContorl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -359,6 +365,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   brainwave: {fileID: 2077341869}
   skybox: {fileID: 2100000, guid: 860a66ca4259b384f9ec01b687f71c3c, type: 2}
+  visualEffect: {fileID: 865328288}
 --- !u!1 &1654693456
 GameObject:
   m_ObjectHideFlags: 0
